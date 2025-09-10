@@ -1,10 +1,9 @@
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
+Flask==3.1.2
+gunicorn==23.0.0
+easyocr==1.7.2
+opencv-python-headless==4.8.1.78
+numpy==1.26.4
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+torchaudio==2.2.2+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
-
-Flask
-gunicorn
-ultralytics==8.0.196
-easyocr
-opencv-python-headless
-numpy
